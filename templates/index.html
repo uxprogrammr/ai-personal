@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload and Ask</title>
+</head>
+<body>
+    <h1>Upload a Text File and Ask a Question</h1>
+
+    <form method="post" action="/" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".txt" required><br><br>
+        <input type="text" name="question" placeholder="Enter your question" required><br><br>
+        <input type="submit" value="Ask">
+    </form>
+</body>
+</html>
